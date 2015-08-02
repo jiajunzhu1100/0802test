@@ -20,7 +20,7 @@
     UILabel *sss;
     UILabel *tt;
     UILabel *ttt;
-    __weak IBOutlet UIScrollView *sv;
+    UIScrollView *sv;
 }
 @property(nonatomic)UIView *bgview;
 

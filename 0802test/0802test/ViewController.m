@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    sv=[[UIScrollView alloc]init];
+    sv=[[UIScrollView alloc]init];
     sv.frame=CGRectMake(0, 0, 600, 600);
     [sv setContentOffset:CGPointMake(600, 1200)];
     [sv addSubview:fb.view];
@@ -25,6 +25,7 @@
     [sv addSubview:ll];
     [sv addSubview:bb];
     [sv addSubview:ss];
+    [self.view addSubview:sv];
     // Do any additional setup after loading the view, typically from a nib.
     fb=[[fbViewController alloc]init];
     fb.view.frame=CGRectMake(0, 100, 600, 360);
