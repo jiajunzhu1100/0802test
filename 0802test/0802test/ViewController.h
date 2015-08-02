@@ -28,8 +28,8 @@
 
 }
 @property(nonatomic)UIView *bgview;
-@property (retain, nonatomic) IBOutlet UIScrollView *sv;
-
+//@property (retain, nonatomic) IBOutlet UIScrollView *sv;
+//
 
 
 @end

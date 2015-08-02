@@ -16,40 +16,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    sv=[[UIScrollView alloc]init];
-    sv.frame=CGRectMake(0, 0, 600, 600);
-    [sv setContentOffset:CGPointMake(600, 1200)];
-    [sv addSubview:fb.view];
-    [sv addSubview:sb.view];
-    [sv addSubview:tb.view];
-    [sv addSubview:ll];
-    [sv addSubview:bb];
-    [sv addSubview:ss];
-    [self.view addSubview:sv];
-    // Do any additional setup after loading the view, typically from a nib.
-
+//
+//    sv.contentSize=CGSizeMake(600, 2000);
     
-//    
-//    self.sv=[[UIScrollView alloc]init];
     
-//    self.sv.frame=CGRectMake(0, 0, 600, 600);
-    [self.sv setContentSize:CGSizeMake(600, 2000)];
+    [sv setContentSize:CGSizeMake(600, 2000)];
+    
+    
     fb=[[fbViewController alloc]init];
     fb.view.frame=CGRectMake(0, 100, 600, 360);
 
-    [self.sv addSubview:fb.view];
+    [sv addSubview:fb.view];
     
     sb=[[sbViewController alloc]init];
     sb.view.frame=CGRectMake(0, 550, 600, 200);
 
-    [self.sv addSubview:sb.view];
+    [sv addSubview:sb.view];
     
     
     tb=[[tbViewController alloc]init];
     tb.view.frame=CGRectMake(0, 750, 560, 100);
 
-    [self.sv addSubview:tb.view];
+    [sv addSubview:tb.view];
     
     
     
@@ -58,27 +46,37 @@
     ll=[[UILabel alloc]init];
     ll.frame=CGRectMake(18, 60, 5, 13);
     ll.backgroundColor=[UIColor redColor];
-    [self.sv addSubview:ll];
+    [sv addSubview:ll];
+    
+    
     bb=[[UILabel alloc]init];
     bb.frame=CGRectMake(38, 60, 100, 20);
     bb.text=@"正在售票";
-    [self.sv addSubview:bb];
+    [sv addSubview:bb];
+    
+    
+    
     ss=[[UILabel alloc]init];
     ss.frame=CGRectMake(18, 540, 5, 13);
     ss.backgroundColor=[UIColor redColor];
-    [self.sv addSubview:ss];
+    [sv addSubview:ss];
+    
+    
     sss=[[UILabel alloc]init];
     sss.frame=CGRectMake(38, 540, 100, 20);
     sss.text=@"即将上映";
-    [self.sv addSubview:sss];
+    [sv addSubview:sss];
+    
     tt=[[UILabel alloc]init];
     tt.frame=CGRectMake(18, 1060, 5, 13);
     tt.backgroundColor=[UIColor redColor];
-    [self.sv addSubview:tt];
+    [sv addSubview:tt];
+    
+    
     ttt=[[UILabel alloc]init];
     ttt.frame=CGRectMake(38, 1060, 100, 20);
     ttt.text=@"精彩活动";
-    [self.sv addSubview:ttt];
+    [sv addSubview:ttt];
     
 
 }
