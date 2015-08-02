@@ -10,6 +10,8 @@
 #import "fbViewController.h"
 #import "sbViewController.h"
 #import "tbViewController.h"
+
+
 @interface ViewController : UIViewController{
     fbViewController *fb;
     sbViewController *sb;
@@ -20,9 +22,10 @@
     UILabel *sss;
     UILabel *tt;
     UILabel *ttt;
-    __weak IBOutlet UIScrollView *sv;
+    
 }
 @property(nonatomic)UIView *bgview;
+@property (retain, nonatomic) IBOutlet UIScrollView *sv;
 
 
 

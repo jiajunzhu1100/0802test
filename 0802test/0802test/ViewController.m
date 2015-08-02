@@ -16,25 +16,33 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    sv=[[UIScrollView alloc]init];
-    sv.frame=CGRectMake(0, 0, 600, 600);
-    [sv setContentOffset:CGPointMake(600, 1200)];
-    [sv addSubview:fb.view];
-    [sv addSubview:sb.view];
-    [sv addSubview:tb.view];
-    [sv addSubview:ll];
-    [sv addSubview:bb];
-    [sv addSubview:ss];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+//    
+//    self.sv=[[UIScrollView alloc]init];
+    
+//    self.sv.frame=CGRectMake(0, 0, 600, 600);
+    [self.sv setContentSize:CGSizeMake(600, 2000)];
+
     fb=[[fbViewController alloc]init];
     fb.view.frame=CGRectMake(0, 100, 600, 360);
-    [self.view addSubview:fb.view];
+
+    [self.sv addSubview:fb.view];
+    
     sb=[[sbViewController alloc]init];
-    sb.view.frame=CGRectMake(0, 560, 600, 200);
-    [self.view addSubview:sb.view];
+    sb.view.frame=CGRectMake(0, 500, 600, 200);
+
+    [self.sv addSubview:sb.view];
+    
+    
     tb=[[tbViewController alloc]init];
-    tb.view.frame=CGRectMake(20, 800, 560, 100);
-    [self.view addSubview:tb.view];
+    tb.view.frame=CGRectMake(0, 700, 560, 100);
+
+    [self.sv addSubview:tb.view];
+    
+    
+    
+    
+    
     ll=[[UILabel alloc]init];
     ll.frame=CGRectMake(18, 60, 5, 13);
     ll.backgroundColor=[UIColor redColor];
@@ -59,6 +67,8 @@
     ttt.frame=CGRectMake(38, 1060, 100, 20);
     ttt.text=@"精彩活动";
     [self.view addSubview:ttt];
+    
+
 }
 
 - (void)didReceiveMemoryWarning {

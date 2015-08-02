@@ -16,16 +16,11 @@
 		147A69961B6DB54500C5DD0B /* _802testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 147A69951B6DB54500C5DD0B /* _802testTests.m */; };
 		147A69A71B6DD02C00C5DD0B /* fbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147A69A51B6DD02C00C5DD0B /* fbViewController.m */; };
 		147A69A81B6DD02C00C5DD0B /* fbViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 147A69A61B6DD02C00C5DD0B /* fbViewController.xib */; };
-		147A69B01B6DD72F00C5DD0B /* f112ea05f8b9954de393dd3643077a94@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 147A69AA1B6DD72F00C5DD0B /* f112ea05f8b9954de393dd3643077a94@2x.jpeg */; };
-		147A69B11B6DD72F00C5DD0B /* fulian@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 147A69AB1B6DD72F00C5DD0B /* fulian@2x.jpg */; };
-		147A69B21B6DD72F00C5DD0B /* jiehun@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 147A69AC1B6DD72F00C5DD0B /* jiehun@2x.jpg */; };
-		147A69B31B6DD72F00C5DD0B /* tegong@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 147A69AD1B6DD72F00C5DD0B /* tegong@2x.jpg */; };
-		147A69B41B6DD72F00C5DD0B /* wanwushengzhang@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 147A69AE1B6DD72F00C5DD0B /* wanwushengzhang@2x.jpg */; };
-		147A69B51B6DD72F00C5DD0B /* zhanlang@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 147A69AF1B6DD72F00C5DD0B /* zhanlang@2x.jpg */; };
 		147A69B91B6DE0A100C5DD0B /* sbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147A69B71B6DE0A100C5DD0B /* sbViewController.m */; };
 		147A69BA1B6DE0A100C5DD0B /* sbViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 147A69B81B6DE0A100C5DD0B /* sbViewController.xib */; };
 		147A69BE1B6DE1E200C5DD0B /* tbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147A69BC1B6DE1E200C5DD0B /* tbViewController.m */; };
 		147A69BF1B6DE1E200C5DD0B /* tbViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 147A69BD1B6DE1E200C5DD0B /* tbViewController.xib */; };
+		42F8CD611B6DECBB00CC52AB /* 向右滑动@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42F8CD601B6DECBB00CC52AB /* 向右滑动@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,18 +50,13 @@
 		147A69A41B6DD02C00C5DD0B /* fbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fbViewController.h; sourceTree = "<group>"; };
 		147A69A51B6DD02C00C5DD0B /* fbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fbViewController.m; sourceTree = "<group>"; };
 		147A69A61B6DD02C00C5DD0B /* fbViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = fbViewController.xib; sourceTree = "<group>"; };
-		147A69AA1B6DD72F00C5DD0B /* f112ea05f8b9954de393dd3643077a94@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "f112ea05f8b9954de393dd3643077a94@2x.jpeg"; path = "../../../image/f112ea05f8b9954de393dd3643077a94@2x.jpeg"; sourceTree = "<group>"; };
-		147A69AB1B6DD72F00C5DD0B /* fulian@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "fulian@2x.jpg"; path = "../../../image/fulian@2x.jpg"; sourceTree = "<group>"; };
-		147A69AC1B6DD72F00C5DD0B /* jiehun@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "jiehun@2x.jpg"; path = "../../../image/jiehun@2x.jpg"; sourceTree = "<group>"; };
-		147A69AD1B6DD72F00C5DD0B /* tegong@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tegong@2x.jpg"; path = "../../../image/tegong@2x.jpg"; sourceTree = "<group>"; };
-		147A69AE1B6DD72F00C5DD0B /* wanwushengzhang@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "wanwushengzhang@2x.jpg"; path = "../../../image/wanwushengzhang@2x.jpg"; sourceTree = "<group>"; };
-		147A69AF1B6DD72F00C5DD0B /* zhanlang@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "zhanlang@2x.jpg"; path = "../../../image/zhanlang@2x.jpg"; sourceTree = "<group>"; };
 		147A69B61B6DE0A100C5DD0B /* sbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbViewController.h; sourceTree = "<group>"; };
 		147A69B71B6DE0A100C5DD0B /* sbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sbViewController.m; sourceTree = "<group>"; };
 		147A69B81B6DE0A100C5DD0B /* sbViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = sbViewController.xib; sourceTree = "<group>"; };
 		147A69BB1B6DE1E200C5DD0B /* tbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tbViewController.h; sourceTree = "<group>"; };
 		147A69BC1B6DE1E200C5DD0B /* tbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tbViewController.m; sourceTree = "<group>"; };
 		147A69BD1B6DE1E200C5DD0B /* tbViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tbViewController.xib; sourceTree = "<group>"; };
+		42F8CD601B6DECBB00CC52AB /* 向右滑动@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "向右滑动@2x.png"; path = "../../../../Downloads/未命名文件夹 5/向右滑动@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +103,7 @@
 				147A697E1B6DB54500C5DD0B /* AppDelegate.m */,
 				147A69801B6DB54500C5DD0B /* ViewController.h */,
 				147A69811B6DB54500C5DD0B /* ViewController.m */,
+				147A69831B6DB54500C5DD0B /* Main.storyboard */,
 				147A69A41B6DD02C00C5DD0B /* fbViewController.h */,
 				147A69A51B6DD02C00C5DD0B /* fbViewController.m */,
 				147A69A61B6DD02C00C5DD0B /* fbViewController.xib */,
@@ -122,7 +113,6 @@
 				147A69BB1B6DE1E200C5DD0B /* tbViewController.h */,
 				147A69BC1B6DE1E200C5DD0B /* tbViewController.m */,
 				147A69BD1B6DE1E200C5DD0B /* tbViewController.xib */,
-				147A69831B6DB54500C5DD0B /* Main.storyboard */,
 				147A69861B6DB54500C5DD0B /* Images.xcassets */,
 				147A69881B6DB54500C5DD0B /* LaunchScreen.xib */,
 				147A69791B6DB54500C5DD0B /* Supporting Files */,
@@ -159,12 +149,7 @@
 		147A69A91B6DD70900C5DD0B /* image */ = {
 			isa = PBXGroup;
 			children = (
-				147A69AA1B6DD72F00C5DD0B /* f112ea05f8b9954de393dd3643077a94@2x.jpeg */,
-				147A69AB1B6DD72F00C5DD0B /* fulian@2x.jpg */,
-				147A69AC1B6DD72F00C5DD0B /* jiehun@2x.jpg */,
-				147A69AD1B6DD72F00C5DD0B /* tegong@2x.jpg */,
-				147A69AE1B6DD72F00C5DD0B /* wanwushengzhang@2x.jpg */,
-				147A69AF1B6DD72F00C5DD0B /* zhanlang@2x.jpg */,
+				42F8CD601B6DECBB00CC52AB /* 向右滑动@2x.png */,
 			);
 			name = image;
 			sourceTree = "<group>";
@@ -253,14 +238,9 @@
 				147A69A81B6DD02C00C5DD0B /* fbViewController.xib in Resources */,
 				147A69BF1B6DE1E200C5DD0B /* tbViewController.xib in Resources */,
 				147A69851B6DB54500C5DD0B /* Main.storyboard in Resources */,
-				147A69B21B6DD72F00C5DD0B /* jiehun@2x.jpg in Resources */,
-				147A69B11B6DD72F00C5DD0B /* fulian@2x.jpg in Resources */,
 				147A698A1B6DB54500C5DD0B /* LaunchScreen.xib in Resources */,
-				147A69B31B6DD72F00C5DD0B /* tegong@2x.jpg in Resources */,
-				147A69B01B6DD72F00C5DD0B /* f112ea05f8b9954de393dd3643077a94@2x.jpeg in Resources */,
 				147A69871B6DB54500C5DD0B /* Images.xcassets in Resources */,
-				147A69B51B6DD72F00C5DD0B /* zhanlang@2x.jpg in Resources */,
-				147A69B41B6DD72F00C5DD0B /* wanwushengzhang@2x.jpg in Resources */,
+				42F8CD611B6DECBB00CC52AB /* 向右滑动@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +460,7 @@
 				147A699B1B6DB54500C5DD0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		147A699C1B6DB54500C5DD0B /* Build configuration list for PBXNativeTarget "0802testTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +469,7 @@
 				147A699E1B6DB54500C5DD0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
