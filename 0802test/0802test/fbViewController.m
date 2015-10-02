@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view from its nib.
 //    view1.layer.borderColor=view2.layer.borderColor=view3.layer.borderColor=view4.layer.borderColor=view5.layer.borderColor=view6.layer.borderColor=[[UIColor colorWithRed:120/255.0 green:129/255.0 blue:100/255.0 alpha:1]CGColor];
 //    view1.layer.borderWidth=view2.layer.borderWidth=view3.layer.borderWidth=view4.layer.borderWidth=view5.layer.borderWidth=view6.layer.borderWidth=0;
-    
+    self.view.backgroundColor=[UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1];
     
 }
 

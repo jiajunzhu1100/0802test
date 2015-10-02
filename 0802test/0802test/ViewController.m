@@ -16,17 +16,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
+    
+    //self.view.backgroundColor=[UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1];
     sv=[[UIScrollView alloc]init];
-    sv.frame=CGRectMake(0, 0, 600, 600);
-    [sv setContentOffset:CGPointMake(600, 1200)];
-    [sv addSubview:fb.view];
-    [sv addSubview:sb.view];
-    [sv addSubview:tb.view];
-    [sv addSubview:ll];
-    [sv addSubview:bb];
-    [sv addSubview:ss];
+    sv.frame=CGRectMake(0, 0, 400, 600);
+    //sv.contentInset=UIEdgeInsetsMake(240, 0, 0, 0);
+    //[sv setContentOffset:CGPointMake(600, 1200)];
+//    [sv addSubview:fb.view];
+//    [sv addSubview:sb.view];
+//    [sv addSubview:tb.view];
+//    [sv addSubview:ll];
+//    [sv addSubview:bb];
+//    [sv addSubview:ss];
     [self.view addSubview:sv];
+    //[sv setBackgroundColor:[UIColor colorWithRed:120/255.0 green:129/255.0 blue:140/255.0 alpha:0.8]];
     // Do any additional setup after loading the view, typically from a nib.
 
     
@@ -34,54 +38,70 @@
 //    self.sv=[[UIScrollView alloc]init];
     
 //    self.sv.frame=CGRectMake(0, 0, 600, 600);
-    [self.sv setContentSize:CGSizeMake(600, 2000)];
+    img1=[[UIImageView alloc]initWithFrame:CGRectMake(0,0, 380, 200)];
+    img1.image=[UIImage imageNamed:@"f112ea05f8b9954de393dd3643077a94@2x.jpeg"];
+    [sv addSubview:img1];
+    [sv setIndicatorStyle:UIScrollViewIndicatorStyleBlack];
+    [sv setContentSize:CGSizeMake(400, 2000)];
+    [sv setBackgroundColor:[UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1]];
     fb=[[fbViewController alloc]init];
-    fb.view.frame=CGRectMake(0, 100, 600, 360);
+    fb.view.frame=CGRectMake(0, 300, 400, 360);
 
-    [self.sv addSubview:fb.view];
+    [sv addSubview:fb.view];
     
     sb=[[sbViewController alloc]init];
-    sb.view.frame=CGRectMake(0, 500, 600, 200);
+    sb.view.frame=CGRectMake(0, 800, 400, 200);
 
-    [self.sv addSubview:sb.view];
+    [sv addSubview:sb.view];
     
     
     tb=[[tbViewController alloc]init];
-    tb.view.frame=CGRectMake(0, 700, 560, 100);
+    tb.view.frame=CGRectMake(10, 1100, 360, 50);
 
-    [self.sv addSubview:tb.view];
+    [sv addSubview:tb.view];
     
+    eb=[[eventViewController alloc]init];
+    eb.view.frame=CGRectMake(10, 1300, 360, 250);
+    [sv addSubview:eb.view];
     
-    
-    
+//    lo=[[LoginViewController alloc]init];
+//    lo.view.frame=CGRectMake(5, 1600, 400, 100);
+//    [sv addSubview:lo.view];
     
     ll=[[UILabel alloc]init];
-    ll.frame=CGRectMake(18, 60, 5, 13);
+    ll.frame=CGRectMake(18, 260, 5, 13);
     ll.backgroundColor=[UIColor redColor];
-    [self.view addSubview:ll];
+    [sv addSubview:ll];
     bb=[[UILabel alloc]init];
-    bb.frame=CGRectMake(38, 60, 100, 20);
+    bb.frame=CGRectMake(38, 260, 100, 20);
     bb.text=@"正在售票";
-    [self.view addSubview:bb];
+    [sv addSubview:bb];
     ss=[[UILabel alloc]init];
-    ss.frame=CGRectMake(18, 540, 5, 13);
+    ss.frame=CGRectMake(18, 740, 5, 13);
     ss.backgroundColor=[UIColor redColor];
-    [self.view addSubview:ss];
+    [sv addSubview:ss];
     sss=[[UILabel alloc]init];
-    sss.frame=CGRectMake(38, 540, 100, 20);
+    sss.frame=CGRectMake(38, 740, 100, 20);
     sss.text=@"即将上映";
-    [self.view addSubview:sss];
-    tt=[[UILabel alloc]init];
-    tt.frame=CGRectMake(18, 1060, 5, 13);
-    tt.backgroundColor=[UIColor redColor];
-    [self.view addSubview:tt];
-    ttt=[[UILabel alloc]init];
-    ttt.frame=CGRectMake(38, 1060, 100, 20);
-    ttt.text=@"精彩活动";
-    [self.view addSubview:ttt];
+    [sv addSubview:sss];
+   
     
 
 }
+//-(void)viewWillAppear:(BOOL)animated{
+//    [super viewWillAppear:animated];
+//    img1.frame=CGRectMake(0, -240, self.view.frame.size.width, 240);
+//}
+//-(void)scrollViewDidScroll:(UIScrollView *)scrollView{
+//    CGFloat yOffset=scrollView.contentOffset.y;
+//    if (yOffset<-240) {
+//        CGRect f=img1.frame;
+//        f.origin.y=yOffset;
+//        f.size.height=-yOffset;
+//        img1.frame=f;
+//    }
+//}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -10,25 +10,23 @@
 #import "fbViewController.h"
 #import "sbViewController.h"
 #import "tbViewController.h"
-
-
+#import "eventViewController.h"
 @interface ViewController : UIViewController{
     fbViewController *fb;
     sbViewController *sb;
     tbViewController *tb;
+    eventViewController *eb;
     UILabel *ll;
     UILabel *bb;
     UILabel *ss;
     UILabel *sss;
-    UILabel *tt;
-    UILabel *ttt;
     UIScrollView *sv;
-
+    UIImageView *img1;
     
 
 }
 @property(nonatomic)UIView *bgview;
-@property (retain, nonatomic) IBOutlet UIScrollView *sv;
+//@property (retain, nonatomic) IBOutlet UIScrollView *sv;
 
 
 

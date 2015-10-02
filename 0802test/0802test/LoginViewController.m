@@ -1,23 +1,27 @@
 //
-//  sbViewController.m
+//  LoginViewController.m
 //  0802test
 //
-//  Created by 郭正豪 on 15/8/2.
+//  Created by 郭正豪 on 15/8/10.
 //  Copyright (c) 2015年 郭正豪. All rights reserved.
 //
 
-#import "sbViewController.h"
+#import "LoginViewController.h"
 
-@interface sbViewController ()
+@interface LoginViewController ()
 
 @end
 
-@implementation sbViewController
+@implementation LoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.view.backgroundColor=[UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1];
+    bac.image=[UIImage imageNamed:@"tegong@2x.jpg"];
+    //bac.frame=CGRectMake(0, 0, 400, 100);
+    [bac setAlpha:0.4];
+    [self.view addSubview:bac];
+    
 }
 
 - (void)didReceiveMemoryWarning {

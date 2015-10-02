@@ -1,23 +1,31 @@
 //
-//  sbViewController.m
+//  UserViewController.m
 //  0802test
 //
-//  Created by 郭正豪 on 15/8/2.
+//  Created by 郭正豪 on 15/9/15.
 //  Copyright (c) 2015年 郭正豪. All rights reserved.
 //
 
-#import "sbViewController.h"
-
-@interface sbViewController ()
+#import "UserViewController.h"
+#import "LoginViewController.h"
+@interface UserViewController ()
 
 @end
 
-@implementation sbViewController
+@implementation UserViewController{
+    LoginViewController *lv;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.view.backgroundColor=[UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1];
+    sv=[[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, 400, 600)];
+    [self.view addSubview:sv];
+    sv.backgroundColor=[UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1];
+    [sv setContentSize:CGSizeMake(400, 2000)];
+    lv=[[LoginViewController alloc]init];
+    lv.view.frame=CGRectMake(0, 0, 400, 400);
+    [sv addSubview:lv.view];
 }
 
 - (void)didReceiveMemoryWarning {
