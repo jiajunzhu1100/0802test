@@ -25,6 +25,7 @@
 		147A69BA1B6DE0A100C5DD0B /* sbViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 147A69B81B6DE0A100C5DD0B /* sbViewController.xib */; };
 		147A69BE1B6DE1E200C5DD0B /* tbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147A69BC1B6DE1E200C5DD0B /* tbViewController.m */; };
 		147A69BF1B6DE1E200C5DD0B /* tbViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 147A69BD1B6DE1E200C5DD0B /* tbViewController.xib */; };
+<<<<<<< HEAD
 		14A37FF71B6F0909008A283B /* eventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A37FF51B6F0909008A283B /* eventViewController.m */; };
 		14A37FF81B6F0909008A283B /* eventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A37FF61B6F0909008A283B /* eventViewController.xib */; };
 		14FC014F1B78813300FD023E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FC014D1B78813300FD023E /* LoginViewController.m */; };
@@ -35,6 +36,9 @@
 		14FF21A51B6E006B00E71F1C /* tegong@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14FF219F1B6E006B00E71F1C /* tegong@2x.jpg */; };
 		14FF21A61B6E006B00E71F1C /* wanwushengzhang@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14FF21A01B6E006B00E71F1C /* wanwushengzhang@2x.jpg */; };
 		14FF21A71B6E006B00E71F1C /* zhanlang@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14FF21A11B6E006B00E71F1C /* zhanlang@2x.jpg */; };
+=======
+		429F80E71B6E0B5400FAC9E7 /* 向右滑动@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 429F80E61B6E0B5400FAC9E7 /* 向右滑动@2x.png */; };
+>>>>>>> origin/master
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +80,7 @@
 		147A69BB1B6DE1E200C5DD0B /* tbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tbViewController.h; sourceTree = "<group>"; };
 		147A69BC1B6DE1E200C5DD0B /* tbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tbViewController.m; sourceTree = "<group>"; };
 		147A69BD1B6DE1E200C5DD0B /* tbViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tbViewController.xib; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		14A37FF41B6F0909008A283B /* eventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eventViewController.h; sourceTree = "<group>"; };
 		14A37FF51B6F0909008A283B /* eventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eventViewController.m; sourceTree = "<group>"; };
 		14A37FF61B6F0909008A283B /* eventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = eventViewController.xib; sourceTree = "<group>"; };
@@ -88,6 +93,9 @@
 		14FF219F1B6E006B00E71F1C /* tegong@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tegong@2x.jpg"; path = "../../../image/tegong@2x.jpg"; sourceTree = "<group>"; };
 		14FF21A01B6E006B00E71F1C /* wanwushengzhang@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "wanwushengzhang@2x.jpg"; path = "../../../image/wanwushengzhang@2x.jpg"; sourceTree = "<group>"; };
 		14FF21A11B6E006B00E71F1C /* zhanlang@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "zhanlang@2x.jpg"; path = "../../../image/zhanlang@2x.jpg"; sourceTree = "<group>"; };
+=======
+		429F80E61B6E0B5400FAC9E7 /* 向右滑动@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "向右滑动@2x.png"; path = "../../../../Downloads/未命名文件夹 5/向右滑动@2x.png"; sourceTree = "<group>"; };
+>>>>>>> origin/master
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +201,7 @@
 		147A69A91B6DD70900C5DD0B /* image */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				145890711BA7C5A100CAF1B5 /* dabingxiaojiang@2x.jpg */,
 				145890721BA7C5A100CAF1B5 /* titans@2x.jpg */,
 				145890731BA7C5A100CAF1B5 /* zhuiai@2x.jpg */,
@@ -202,6 +211,9 @@
 				14FF219F1B6E006B00E71F1C /* tegong@2x.jpg */,
 				14FF21A01B6E006B00E71F1C /* wanwushengzhang@2x.jpg */,
 				14FF21A11B6E006B00E71F1C /* zhanlang@2x.jpg */,
+=======
+				429F80E61B6E0B5400FAC9E7 /* 向右滑动@2x.png */,
+>>>>>>> origin/master
 			);
 			name = image;
 			sourceTree = "<group>";
@@ -299,23 +311,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				145890761BA7C5A100CAF1B5 /* zhuiai@2x.jpg in Resources */,
+=======
+				429F80E71B6E0B5400FAC9E7 /* 向右滑动@2x.png in Resources */,
+>>>>>>> origin/master
 				147A69BA1B6DE0A100C5DD0B /* sbViewController.xib in Resources */,
-				14FF21A41B6E006B00E71F1C /* jiehun@2x.jpg in Resources */,
-				14FF21A61B6E006B00E71F1C /* wanwushengzhang@2x.jpg in Resources */,
 				147A69A81B6DD02C00C5DD0B /* fbViewController.xib in Resources */,
+<<<<<<< HEAD
 				145890741BA7C5A100CAF1B5 /* dabingxiaojiang@2x.jpg in Resources */,
 				14FF21A21B6E006B00E71F1C /* f112ea05f8b9954de393dd3643077a94@2x.jpeg in Resources */,
 				145890701BA7C35300CAF1B5 /* UserViewController.xib in Resources */,
 				147A69BF1B6DE1E200C5DD0B /* tbViewController.xib in Resources */,
 				14A37FF81B6F0909008A283B /* eventViewController.xib in Resources */,
 				14FF21A51B6E006B00E71F1C /* tegong@2x.jpg in Resources */,
+=======
+				147A69BF1B6DE1E200C5DD0B /* tbViewController.xib in Resources */,
+>>>>>>> origin/master
 				147A69851B6DB54500C5DD0B /* Main.storyboard in Resources */,
-				14FF21A31B6E006B00E71F1C /* fulian@2x.jpg in Resources */,
 				147A698A1B6DB54500C5DD0B /* LaunchScreen.xib in Resources */,
+<<<<<<< HEAD
 				14FF21A71B6E006B00E71F1C /* zhanlang@2x.jpg in Resources */,
 				145890751BA7C5A100CAF1B5 /* titans@2x.jpg in Resources */,
 				14FC01501B78813300FD023E /* LoginViewController.xib in Resources */,
+=======
+>>>>>>> origin/master
 				147A69871B6DB54500C5DD0B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

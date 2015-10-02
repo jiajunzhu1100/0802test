@@ -56,9 +56,13 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
+<<<<<<< HEAD
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="ObT-1v-4Tt"/>
                         <segue destination="RTl-un-qKa" kind="relationship" relationship="viewControllers" id="4C9-Iu-F8k"/>
                         <segue destination="JQx-QP-bEv" kind="relationship" relationship="viewControllers" id="IFH-zR-zhB"/>
+=======
+                        <outlet property="sv" destination="aWZ-lq-D3V" id="2ed-Wu-WGO"/>
+>>>>>>> origin/master
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VN6-mA-Xpz" userLabel="First Responder" sceneMemberID="firstResponder"/>

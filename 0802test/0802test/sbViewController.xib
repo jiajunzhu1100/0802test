@@ -26,6 +26,12 @@
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
+<<<<<<< HEAD
+=======
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="向右滑动.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZMk-6a-Fny">
+                            <rect key="frame" x="0.0" y="0.0" width="180" height="123"/>
+                        </imageView>
+>>>>>>> origin/master
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
@@ -41,6 +47,12 @@
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
+<<<<<<< HEAD
+=======
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="向右滑动.png" translatesAutoresizingMaskIntoConstraints="NO" id="D23-ba-xv8">
+                            <rect key="frame" x="0.0" y="0.0" width="180" height="123"/>
+                        </imageView>
+>>>>>>> origin/master
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
@@ -56,6 +68,12 @@
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
+<<<<<<< HEAD
+=======
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="向右滑动.png" translatesAutoresizingMaskIntoConstraints="NO" id="shs-9w-8Ix">
+                            <rect key="frame" x="0.0" y="0.0" width="180" height="123"/>
+                        </imageView>
+>>>>>>> origin/master
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
@@ -65,8 +83,6 @@
         </view>
     </objects>
     <resources>
-        <image name="f112ea05f8b9954de393dd3643077a94.jpeg" width="1071" height="1496"/>
-        <image name="fulian.jpg" width="135" height="180"/>
-        <image name="jiehun.jpg" width="60" height="80"/>
+        <image name="向右滑动.png" width="1024" height="768"/>
     </resources>
 </document>
